@@ -1,0 +1,139 @@
+body {
+    background-image: url('Images/bingo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: darkgrey;
+}
+#txtGameId {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+#divPlayers {
+    margin-top: 10px;
+}
+#divBoard {
+    margin-top: 20px;
+}
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-row {
+    width: 100%;
+    display: flex;
+}
+.card-colume {
+    width: 50%;
+}  
+.top {
+    justify-content: flex-start;
+} 
+.bottom {
+    justify-content: flex-end;
+}
+.card-colume p{
+    text-align:center;
+}
+.cardran{
+    width: 450px;
+    height: 25px;
+    padding: 10px;
+    margin-left: 81px;
+    margin-top: 80px;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    float: left;
+}
+.card {
+    width: 33px;
+    height: 33px;
+    padding: 10px;
+    margin: 1px;
+    background-color : rgba(128, 128, 128, 0.811);
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid rgb(230, 156, 58);
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;    
+}
+.card:hover {
+    background-color: darkgrey;
+}
+#copyid{
+    margin-left: 10px;;
+}
+.card-container{
+    margin-top: 550px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+}
+#content{
+    display: none; 
+    margin-top:-10zzzpx;
+}
+#bingo{
+    margin-top: 2px;
+    margin-left: 300px;
+    font-size: 25px ;            
+}
+#first{
+    display: none;
+    float: left;
+}
+#second{
+    display: none;
+    float: left;
+}
+#third{
+    display: none;
+    float: left;
+}
+#fourth{
+    display: none;
+    float: left;
+}
+  #fifth{
+    display: none;
+}
+#gamelink{
+    color: #674800;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+#join {
+    padding-right: 220px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #674800; /* Dark gray */
+    margin-bottom: 10px;
+}
+#copyid{
+    margin-left: 10px;;
+}

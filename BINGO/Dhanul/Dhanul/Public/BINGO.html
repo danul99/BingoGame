@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BINGO Online</title>
+    <link rel="stylesheet" href="Bingo.css">
+    </head>
+    
+    <body >
+        <button id = 'btnCreate'>New Game</button>
+        <button id = 'btnJoin'>Join Game</button>
+        <input type = 'text' id = 'txtGameId' placeholder="Enter Game ID" >
+
+        <div id="join"  style="display:none;">
+            <p>Game ID : </p>
+            <div id="gamelink"></div>
+            <button id="copyid"type="button" onclick="copy_data(gamelink)">copy</button>
+        </div>
+        
+        <div id="content">
+            <div class="cardran" id="RanNum" onclick="ran(1)">Click Here To Generate Numbers
+                <div id="RanNumDis"></div>
+            </div>  
+            
+            <div class="card-container">
+
+                <div class="card" id="a1" onclick="swapCards(1)"> 01</div>
+                <div class="card" id="a2" onclick="swapCards(2)"> 02</div>
+                <div class="card" id="a3" onclick="swapCards(3)"> 03</div>
+                <div class="card" id="a4" onclick="swapCards(4)"> 04</div>
+                <div class="card" id="a5" onclick="swapCards(5)"> 05</div>
+                          
+                <div class="card" id="a6" onclick="swapCards(6)"> 06</div>
+                <div class="card" id="a7" onclick="swapCards(7)"> 07</div>
+                <div class="card" id="a8" onclick="swapCards(8)"> 08</div>
+                <div class="card" id="a9" onclick="swapCards(9)"> 09</div>
+                <div class="card" id="a10" onclick="swapCards(10)"> 10</div>
+                         
+                <div class="card" id="a11" onclick="swapCards(11)"> 11</div>
+                <div class="card" id="a12" onclick="swapCards(12)"> 12</div>
+                <div class="card" id="a13" onclick="swapCards(13)"> 13</div>
+                <div class="card" id="a14" onclick="swapCards(14)"> 14</div>
+                <div class="card" id="a15" onclick="swapCards(15)"> 15</div>
+                          
+                <div class="card" id="a16" onclick="swapCards(16)"> 16</div>
+                <div class="card" id="a17" onclick="swapCards(17)"> 17</div>
+                <div class="card" id="a18" onclick="swapCards(18)"> 18</div>
+                <div class="card" id="a19" onclick="swapCards(19)"> 19</div>
+                <div class="card" id="a20" onclick="swapCards(20)"> 20</div>
+                        
+                <div class="card" id="a21" onclick="swapCards(21)"> 21</div>
+                <div class="card" id="a22" onclick="swapCards(22)"> 22</div>
+                <div class="card" id="a23" onclick="swapCards(23)"> 23</div>
+                <div class="card" id="a24" onclick="swapCards(24)"> 24</div>
+                <div class="card" id="a25" onclick="swapCards(25)"> 25</div>
+                          
+            </div>
+        </div>
+        <div id="bingo">
+            <label id="first">B</label>
+            <label id="second">I</label>
+            <label id="third">N</label>
+            <label id="fourth">G</label>
+            <label id="fifth">O</label>
+        </div>   
+        <script src="Bingo.js"></script>
+
+        </body >
+</html>
